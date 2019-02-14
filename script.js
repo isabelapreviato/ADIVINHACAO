@@ -4,9 +4,14 @@ function aleatorio(min = 0, max = 50) {
 
 
 let adivinhar = Number(prompt('Adivinhe o nosso número de 0 a 50! :)'));
+
+console.log(aleatorio(0, 50));
+
+
 let ale = aleatorio();
 
 //   while ()
+
 
 if (adivinhar == ale) {
     alert('Você acertou!');
@@ -17,4 +22,5 @@ else if (adivinhar > ale) {
 else {
     alert('Você errou, seu número foi menor que o random! tente novamente!');
 }
+
 console.log(typeof(adivinhar), typeof(ale));
